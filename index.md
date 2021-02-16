@@ -10,7 +10,7 @@ layout: default
       <div class="tile is-parent is-vertical"><img src="https://via.placeholder.com/300"></div>
       <div class="tile is-parent"><img src="https://via.placeholder.com/300"></div>
     </div>
-    <div class="tile is-parent"><img src="https://via.placeholder.com/300"></div>
+    <div class="tile is-parent"><img src="https://via.placeholder.com/700x300"></div>
   </div>
   <div class="tile is-parent"><img src="https://via.placeholder.com/300"></div>
 </div>
