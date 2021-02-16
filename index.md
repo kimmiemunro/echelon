@@ -3,44 +3,16 @@ title: Home
 layout: default
 ---
 
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
-</div>
-<div class="tile">
-  <img src="https://via.placeholder.com/300">
+
+<div class="tile is-ancestor">
+  <div class="tile is-vertical is-8">
+    <div class="tile">
+      <div class="tile is-parent is-vertical"><img src="https://via.placeholder.com/300"></div>
+      <div class="tile is-parent"><img src="https://via.placeholder.com/300"></div>
+    </div>
+    <div class="tile is-parent"><img src="https://via.placeholder.com/300"></div>
+  </div>
+  <div class="tile is-parent"><img src="https://via.placeholder.com/300"></div>
 </div>
 
 
