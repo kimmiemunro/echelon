@@ -7,20 +7,19 @@ layout: compress
 
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/echelon/assets/css/bulma.min.css">
-    <link rel="stylesheet" href="/echelon/assets/css/style.css">
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    {% seo %}
 </head>
 
 <body>
     <nav>
-        <a href="/echelon/">Home</a>
-        <a href="/echelon/services">Services</a>
-        <a href="/echelon/faq">FAQ</a>
-        <a href="/echelon/contact">Contact</a>
-        <a href="/echelon/payments">Payments</a>
+        <a href="/">Home</a>
+        <a href="/services">Services</a>
+        <a href="/faq">FAQ</a>
+        <a href="/contact">Contact</a>
+        <a href="/payments">Payments</a>
     </nav>
-    <h1>{{ page.title }}</h1>
     <section>
         {{ content }}
     </section>
