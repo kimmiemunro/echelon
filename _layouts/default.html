@@ -13,18 +13,31 @@ layout: compress
 </head>
 
 <body>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/services">Services</a>
-        <a href="/faq">FAQ</a>
-        <a href="/contact">Contact</a>
-        <a href="/payments">Payments</a>
+    <nav class="navbar" role="navigation" aria-label="main navigation" >
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="/assets/images/logo-new.png" height="28">
+            </a>
+        
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbar" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/">Home</a>
+                <a class="navbar-item" href="/services">Services</a>
+                <a class="navbar-item" href="/faq">FAQ</a>
+                <a class="navbar-item" href="/contact">Contact</a>
+                <a class="navbar-item" href="/payments">Payments</a>
+            </div>
+        </div>
     </nav>
-    <section>
-        {{ content }}
-    </section>
+    {{ content }}
     <hr>
-    <footer>&copy;2021 Echelon Event Center All rights Reserved</footer>
+    <footer class="has-text-centered" >&copy;2021 Echelon Event Center All rights Reserved</footer>
 </body>
 
 </html>
