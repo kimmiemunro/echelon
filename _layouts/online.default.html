@@ -25,25 +25,17 @@ layout: compress
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <title>{{ site.title }} - {{ page.title }}</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/echelon/styles/style.css">
     {% seo %}
-    <style>
-        .hr-nav {
-            box-shadow: 0 0rem 1rem 0.1rem;
-        }
-        .hr-footer {
-            box-shadow: 0 0rem -1rem -0.1rem;
-        }
-    </style>
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation" >
+    <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
-                <img src="/assets/images/logo-new.png" height="28">
+                <img src="/echelon/assets/images/logo-new.png" height="28">
             </a>
-        
+
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -52,18 +44,17 @@ layout: compress
         </div>
         <div id="navbar" class="navbar-menu">
             <div class="navbar-start uppercase">
-                <a class="navbar-item" href="/">Home</a>
-                <a class="navbar-item" href="/services">Services</a>
-                <a class="navbar-item" href="/faq">FAQ</a>
-                <a class="navbar-item" href="/contact">Contact</a>
-                <a class="navbar-item" href="/payments">Payments</a>
+                <a class="navbar-item" href="/echelon/">Home</a>
+                <a class="navbar-item" href="/echelon/services">Services</a>
+                <a class="navbar-item" href="/echelon/faq">FAQ</a>
+                <a class="navbar-item" href="/echelon/contact">Contact</a>
+                <a class="navbar-item" href="/echelon/payments">Payments</a>
             </div>
         </div>
     </nav>
-    <hr class="hr-nav">
     {{ content }}
-    <hr class="hr-footer">
-    <footer class="has-text-centered" >&copy;2021 Echelon Event Center All rights Reserved</footer>
+    <hr>
+    <footer class="has-text-centered">&copy;2021 Echelon Event Center All rights Reserved</footer>
 </body>
 
 </html>
