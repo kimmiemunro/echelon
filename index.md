@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: online.default
+layout: defaulttest
 ---
 
 <style>

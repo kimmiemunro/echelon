@@ -9,3 +9,27 @@
 .uppercase {
   text-transform: uppercase;
 }
+.hr-nav {
+  box-shadow: 0 0rem 1rem 0.1rem;
+  margin-top: 0;
+}
+.hr-footer {
+  box-shadow: 0 0rem -1rem -0.1rem;
+}
+
+.question::before {
+  font-weight: bolder;
+  content: "Q: ";
+}
+.answer::before {
+  font-weight: bolder;
+  content: "A: "
+}
+
+.question, .answer {
+  text-align: justify;
+}
+
+details.answer {
+  
+}
