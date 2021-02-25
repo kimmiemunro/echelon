@@ -115,38 +115,37 @@ layout: default
             </div>
         </div>
         <div class="tile is-parent is-vertical">        
-                <div class="tile is-parent">
-                    <article class="tile is-child">
-                        <figure class="image is-square">
-                            <img src="https://picsum.photos/300" alt="Photographers"/>
+            <div class="tile is-parent">
+                <article class="tile is-child">
+                    <figure class="image is-square">
+                    <img src="https://picsum.photos/300" alt="Photographers"/>
                         </figure>
-                        <p class="subtitle has-text-centered">Photographers</p>
-                    </article>
-                </div>            
-                <div class="tile is-parent">
-                    <article class="tile is-child">
-                        <figure class="image is-square">
-                            <img src="https://picsum.photos/300" alt="Catering food & beverages"/>
-                        </figure>
-                        <p class="subtitle has-text-centered">Catering food & beverages</p>
-                    </article>
-                </div>                
-                <div class="tile is-parent">
-                    <article class="tile is-child">
-                        <figure class="image is-square">
-                            <img src="https://picsum.photos/300" alt="Complete staffing"/>
-                        </figure>
-                        <p class="subtitle has-text-centered">Complete staffing</p>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child">
-                        <figure class="image is-square">
-                            <img src="https://picsum.photos/300" alt="Military / Law Enforcement / Senior discounts"/>
-                        </figure>
-                        <p class="subtitle has-text-centered">Military / Law Enforcement / Senior discounts</p>
-                    </article>
-                </div>
+                    <p class="subtitle has-text-centered">Photographers</p>
+                </article>
+            </div>            
+            <div class="tile is-parent">
+                <article class="tile is-child">
+                    <figure class="image is-square">
+                        <img src="https://picsum.photos/300" alt="Catering food & beverages"/>
+                    </figure>
+                    <p class="subtitle has-text-centered">Catering food & beverages</p>
+                </article>
+            </div>                
+            <div class="tile is-parent">
+                <article class="tile is-child">
+                    <figure class="image is-square">
+                        <img src="https://picsum.photos/300" alt="Complete staffing"/>
+                    </figure>
+                    <p class="subtitle has-text-centered">Complete staffing</p>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child">
+                    <figure class="image is-square">
+                        <img src="https://picsum.photos/300" alt="Military / Law Enforcement / Senior discounts"/>
+                    </figure>
+                    <p class="subtitle has-text-centered">Military / Law Enforcement / Senior discounts</p>
+                </article>
             </div>
         </div>
     </div>
