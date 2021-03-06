@@ -8,43 +8,66 @@ layout: compress
 <head>
     <meta charset="utf-8">
     {% seo %}
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}{% link assets/icon/apple-touch-icon.png %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}{% link assets/icon/favicon-32x32.png %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}{% link assets/icon/favicon-16x16.png %}">
+    <link rel="manifest" href="{{ site.baseurl }}{% link site.webmanifest %}">
+    <link rel="mask-icon" href="{{ site.baseurl }}{% link assets/icon/safari-pinned-tab.svg %}" color="#333333">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="/echelon/styles/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/styles/style-default.scss %}">
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation" >
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/echelon/">
-                <img src="/echelon/assets/images/logo-new.png" height="28" alt="Echelon">
-            </a>
-        
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="#main-navbar">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-        <div id="main-navbar" class="navbar-menu">
-            <div class="navbar-start uppercase">
-                <a class="navbar-item" href="/echelon/">Home</a>
-                <a class="navbar-item" href="/echelon/services">Services</a>
-                <a class="navbar-item" href="/echelon/faq">FAQ</a>
-                <a class="navbar-item" href="/echelon/contact">Contact</a>
-                <a class="navbar-item" href="/echelon/payments">Payments</a>
+    <nav class="navbar is-fixed-top navbar-boxshadow" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="{{ site.baseurl }}/">
+                    <img src="{{ site.baseurl }}{% link assets/images/logo-text.png %}" height="28" alt="Echelon">
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-navbar">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-        </div>
+            <div id="main-navbar" class="navbar-menu">
+                <div class="navbar-start uppercase">
+                    <a class="navbar-item" href="{{ site.baseurl }}/">Home</a>
+                    <a class="navbar-item" href="{{ site.baseurl }}/services">Services</a>
+                    <a class="navbar-item" href="{{ site.baseurl }}/packages">Packages</a>
+                    <a class="navbar-item" href="{{ site.baseurl }}/contact">Contact</a>
+                    <a class="navbar-item" href="{{ site.baseurl }}/faq">FAQ</a>
+
+                    <span>
+                        <span>Themes: </span>
+                        <input type="radio" id="theme-default" name="theme"
+                            value="{{ site.baseurl }}/assets/styles/style-default.css" data-target='link[rel="stylesheet"]'>
+                        <label for="theme-default">Default</label>
+                        <input type="radio" id="theme-1" name="theme" value="{{ site.baseurl }}/assets/styles/style-1.css"
+                            data-target='link[rel="stylesheet"]'>
+                        <label for="theme-1">1</label>
+                        <input type="radio" id="theme-2" name="theme" value="{{ site.baseurl }}/assets/styles/style-2.css"
+                            data-target='link[rel="stylesheet"]'>
+                        <label for="theme-2">2</label>
+                        <input type="radio" id="theme-3" name="theme" value="{{ site.baseurl }}/assets/styles/style-3.css"
+                            data-target='link[rel="stylesheet"]'>
+                        <label for="theme-3">3</label>
+                        <input type="radio" id="theme-4" name="theme" value="{{ site.baseurl }}/assets/styles/style-4.css"
+                            data-target='link[rel="stylesheet"]'>
+                        <label for="theme-4">4</label>
+                    </span>
+                </div>
+            </div>
     </nav>
-    <hr class="hr-nav">
-    {{ content }}
-    <hr class="hr-footer">
-    <footer class="has-text-centered" >&copy;2021 Echelon Event Center All rights Reserved</footer>
-    <script src="/echelon/assets/js/main.js"></script>
+    <main>
+        {{ content }}
+    </main>
+    <footer class="footer has-text-centered">
+        <div>
+            &copy;2021 Echelon Event Center All rights Reserved
+        </div>
+    </footer>
+    <script src="{{ site.baseurl }}{% link assets/js/main.js %}"></script>
 </body>
 </html>
