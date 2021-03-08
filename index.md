@@ -14,7 +14,6 @@ layout: default
         <figure class="figure">
           <input type="checkbox" id="zoom-{{ image.basename }}">
           <label for="zoom-{{ image.basename }}">
-          <div></div>
             <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}"/>
           </label>
           <figcaption>{{ image.basename }}</figcaption>
