@@ -13,8 +13,8 @@ layout: default
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.0885411697204!2d-115.17878408430705!3d36.066944416328035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5f9f346c03b%3A0xa4a86e0628262166!2s6623%20S%20Las%20Vegas%20Blvd%2C%20Las%20Vegas%2C%20NV%2089119!5e0!3m2!1sen!2sus!4v1613866864105!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="Google Maps"></iframe>
         <address>6623 South Las Vegas Boulevard, Las Vegas, NV 89119</address>
         <hr>
-        <a src="https://www.facebook.com/Echelon-Event-Center-100726935279063/">Facebook</a>
+        <a href="https://www.facebook.com/Echelon-Event-Center-100726935279063/">Facebook</a>
         <br/>
-        <a src="mailto:echeloneventctr@outlook.com">Email</a>
+        <a href="mailto:echeloneventctr@outlook.com">Email</a>
     </section>
 </div>
