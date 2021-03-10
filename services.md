@@ -7,7 +7,7 @@ layout: default
     <br/>
     <h1 class="is-size-3 has-text-centered">Specializations</h1>
     <h2 class="is-size-5 has-text-centered">Welcome to the ultimate experience for all special occasions both public and private.</h2>
-    <p>Whether you are celebrating a Wedding, Anniversary, Bridal Shower, Bachelor / Bachelorette,  Sweet 16, Quinceañera, Bar Mitzvah, Repast, Corporate events, Banquets, or watch parties, Echelon Event Center can provide a great space to cater to you with affordable prices. We offer quality packages, to include design, full services food and beverage packages, sound and lighting, professional staff, videographer, photographer. Come and visit us at 6623 Las Vegas Blvd South #139 in Town Square, just south of the Las Vegas Strip. You can also inquire by emailing us at <a href="mailto:echeloneventctr@outlook.com">Email</a></p>
+    <p>Whether you are celebrating a Wedding, Anniversary, Bridal Shower, Bachelor / Bachelorette,  Sweet 16, Quinceañera, Bar Mitzvah, Repast, Corporate events, Banquets, or watch parties, Echelon Event Center can provide a great space to cater to you with affordable prices. We offer quality packages, to include design, full services food and beverage packages, sound and lighting, professional staff, videographer, photographer. Come and visit us at 6623 Las Vegas Blvd South #139 in Town Square, just south of the Las Vegas Strip. You can also inquire by emailing us at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <div class="tile is-ancestor">
             <div class="tile is-parent is-vertical">
                 <div class="tile is-parent">
