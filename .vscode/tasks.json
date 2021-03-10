@@ -1,0 +1,29 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start",
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "serve"
+            ],
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
+            "label": "Start",
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "serve"
+            ],
+            "type": "shell",
+            "problemMatcher": []
+        }
+    ]
+}

@@ -8,15 +8,17 @@ layout: default
       <img class="hero-home-image" src="{{ site.baseurl }}{% link assets/images/logo-normal.png %}" alt="Echelon Logo"/>
     </div>
   </section>
-  <section class="home-images">
+  <section class="gallery-images">
     {% for image in site.static_files %}
       {% if image.path contains "assets/images/home" %}
-        <figure class="figure">
+        <figure class="figure gallery-image">
           <input type="checkbox" id="zoom-{{ image.basename }}">
           <label for="zoom-{{ image.basename }}">
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}"/>
+            <div>
+              <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}"/>
+              <figcaption>{{ image.basename }}</figcaption>
+            </div>
           </label>
-          <figcaption>{{ image.basename }}</figcaption>
         </figure>
       {%- endif %}
     {% endfor %}

@@ -9,35 +9,24 @@
   box-shadow: 0 0rem -1rem -0.1rem;
 }
 
-.question::before {
-  font-weight: bolder;
-  content: "Q: ";
-}
-.answer::before {
-  font-weight: bolder;
-  content: "A: "
-}
-
 .question, .answer {
   text-align: justify;
 }
 
-details.answer {
-  
-}
-
-  input[type=checkbox] {
+  .gallery-image > input[type=checkbox] {
     display: none;
   }
 
-  .figure img {
+  .gallery-image > .figure img {
     cursor: zoom-in;
   }
 
-  input[type=checkbox]:checked ~ label > div {
-    background-color: $white;
+  .gallery-image > input[type=checkbox]:checked ~ label {
+    background-color: $black;
+    background-color: $black-fade;
+    color: $black;
     z-index: 9000;
-    position: absolute;
+    position: fixed;
     max-width: 100vw;
     max-height: 100vh;
     left: 0;
@@ -47,28 +36,39 @@ details.answer {
     margin: auto;
   }
 
-  input[type=checkbox]:checked ~ label > img {
-    cursor: zoom-out;
+  .gallery-image > input[type=checkbox]:checked ~ label > div {
     z-index: 9001;
+    margin: 0;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $white-fade;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+  .gallery-image > input[type=checkbox]:checked ~ label > div > img {
+    cursor: zoom-out;
     max-width: 95vw;
     max-height: 95vh;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
   }
 
 details {
   cursor: pointer;
 }
-.home-images {
+
+.gallery-images {
   display: block;
   columns: 12rem;
   gap: 1rem;
 }
-  .home-images .figure {
+  .gallery-images .figure {
     margin-bottom: 1rem;
     break-inside: avoid;
   }
