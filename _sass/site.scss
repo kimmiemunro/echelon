@@ -2,11 +2,11 @@
   text-transform: uppercase;
 }
 .hr-nav {
-  box-shadow: 0 0rem 1rem 0.1rem;
+  box-shadow: 0 0rem $size-6 0.1rem;
   margin-top: 48px;
 }
 .hr-footer {
-  box-shadow: 0 0rem -1rem -0.1rem;
+  box-shadow: 0 0rem -$size-6 -0.1rem;
 }
 
 .question, .answer {
@@ -71,15 +71,15 @@ details {
 .gallery-images {
   display: block;
   columns: 12rem;
-  gap: 1rem;
+  gap: $size-6;
 }
   .gallery-images .figure {
-    margin-bottom: 1rem;
+    margin-bottom: $size-6;
     break-inside: avoid;
   }
 .figure {
-  padding: 1rem;
-  margin: 0 1rem 1rem 1rem;
+  padding: $size-5;
+  margin: 0 $size-5 $size-5 $size-5;
   background: $true-white;
   text-align: center !important;
   font-family: cursive;
@@ -102,7 +102,7 @@ details {
 
 
   .navbar-boxshadow {
-    box-shadow: 0 0rem 1rem 0.1rem;
+    box-shadow: 0 0rem $size-6 0.1rem;
   }
 
 html,
@@ -112,8 +112,14 @@ body {
     flex-direction: column;
 }
 main {
-  padding-top: 3rem;
+  padding-top: $size-1;
 }
 body > footer {
     margin-top: auto;
+}
+
+.photo {
+  padding: $size-5 $size-5 0 $size-5;
+  margin: 0 $size-5 $size-5 $size-5;
+  background: $true-white;
 }
