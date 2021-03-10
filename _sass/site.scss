@@ -17,8 +17,13 @@
     display: none;
   }
 
-  .gallery-image > .figure img {
+  figure.gallery-image, 
+  figure.gallery-image>* {
     cursor: zoom-in;
+  }
+  figure.gallery-image:has(input[type=checkbox]:checked), 
+  figure.gallery-image:has(input[type=checkbox]:checked) > * {
+    cursor: zoom-out;
   }
 
   .gallery-image > input[type=checkbox]:checked ~ label {
@@ -53,8 +58,8 @@
     -o-transform: translate(-50%, -50%);
 }
 
+
   .gallery-image > input[type=checkbox]:checked ~ label > div > img {
-    cursor: zoom-out;
     max-width: 95vw;
     max-height: 95vh;
   }
