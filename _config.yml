@@ -27,7 +27,7 @@ baseurl: "/echelon" # the subpath of your site, e.g. /blog
 url: "https://arciose.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/logo.png
 address: 6623 South Las Vegas Boulevard, Las Vegas, NV 89119
-phone: +17028176851
+phone: 17028176851
 social:
   name: Echelon Event Center
   facebook: https://www.facebook.com/Echelon-Event-Center-100726935279063
