@@ -38,10 +38,12 @@ right-contents:
     src: https://picsum.photos/300
 ---
 
-<div class="container">
-    <br/>
-    <h1 class="is-size-3 has-text-centered">{{page.title}}</h1>
-    <h2 class="is-size-5 has-text-centered">{{page.subtitle}}</h2>
+<div>
+  <div class="container">
+      <br/>
+      <h1 class="is-size-3 has-text-centered">{{page.title}}</h1>
+      <h2 class="is-size-5 has-text-centered">{{page.subtitle}}</h2>
+    </div>
     <div class="tile is-ancestor">
         <div class="tile is-parent is-vertical">
             {% for content in page.left-contents %}

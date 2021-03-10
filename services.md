@@ -39,11 +39,13 @@ right-contents:
     
 ---
 
-<div class="container">
-    <br/>
-    <h1 class="is-size-3 has-text-centered">{{page.title}}</h1>
-    <h2 class="is-size-5 has-text-centered">{{page.subtitle}}</h2>
-    Whether you are celebrating a Wedding, Anniversary, Bridal Shower, Bachelor &sol; Bachelorette,  Sweet 16, Quinceañera, Bar Mitzvah, Repast, Corporate events, Banquets, or watch parties, Echelon Event Center can provide a great space to cater to you with affordable prices. We offer quality packages, to include design, full services food and beverage packages, sound and lighting, professional staff, videographer, photographer. Come and visit us at <address style="display:inline;">{{site.address}}</address> in Town Square, just south of the Las Vegas Strip. You can also inquire by emailing us at <a href="mailto:{{site.email}}">{{site.email}}</a>
+<div>
+    <div class="container">
+      <br/>
+      <h1 class="is-size-3 has-text-centered">{{page.title}}</h1>
+      <h2 class="is-size-5 has-text-centered">{{page.subtitle}}</h2>
+      Whether you are celebrating a Wedding, Anniversary, Bridal Shower, Bachelor &sol; Bachelorette,  Sweet 16, Quinceañera, Bar Mitzvah, Repast, Corporate events, Banquets, or watch parties, Echelon Event Center can provide a great space to cater to you with affordable prices. We offer quality packages, to include design, full services food and beverage packages, sound and lighting, professional staff, videographer, photographer. Come and visit us at <address style="display:inline;">{{site.address}}</address> in Town Square, just south of the Las Vegas Strip. You can also inquire by emailing us at <a href="mailto:{{site.email}}">{{site.email}}</a>
+    </div>
     <div class="tile is-ancestor">
         <div class="tile is-parent is-vertical">
             {% for content in page.left-contents %}
