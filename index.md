@@ -11,7 +11,7 @@ layout: default
   <section class="gallery-images">
     {% for image in site.static_files %}
       {% if image.path contains "assets/images/home" %}
-        <figure class="figure gallery-image">
+        <figure class="figure gallery-image is-uppercase">
           <input type="checkbox" id="zoom-{{ image.basename }}">
           <label for="zoom-{{ image.basename }}">
             <div>

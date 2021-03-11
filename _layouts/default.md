@@ -31,7 +31,7 @@ layout: compress
                 </a>
             </div>
             <div id="main-navbar" class="navbar-menu">
-                <div class="navbar-start uppercase">
+                <div class="navbar-start is-uppercase">
                     <a class="navbar-item" href="{{ site.baseurl }}/">Home</a>
                     <a class="navbar-item" href="{{ site.baseurl }}/services">Services</a>
                     <a class="navbar-item" href="{{ site.baseurl }}/packages">Packages</a>
@@ -55,28 +55,32 @@ layout: compress
         <div>
             &copy;2021 Echelon Event Center All rights Reserved
         </div>
-        <div c>
-            <p>Themes: </p>
-            <input type="radio" id="theme-default" name="theme" value="{{ site.baseurl }}/assets/styles/style-default.css"
-                data-target='link[rel="stylesheet"]'>
-            <label for="theme-default">Default</label>
-            <br />
-            <input type="radio" id="theme-1" name="theme" value="{{ site.baseurl }}/assets/styles/style-1.css"
-                data-target='link[rel="stylesheet"]'>
-            <label for="theme-1">Honeydew</label>
-            <br />
-            <input type="radio" id="theme-2" name="theme" value="{{ site.baseurl }}/assets/styles/style-2.css"
-                data-target='link[rel="stylesheet"]'>
-            <label for="theme-2">Baby Powder</label>
-            <br />
-            <input type="radio" id="theme-3" name="theme" value="{{ site.baseurl }}/assets/styles/style-3.css"
-                data-target='link[rel="stylesheet"]'>
-            <label for="theme-3">Medium Turquoise</label>
-            <br />
-            <input type="radio" id="theme-4" name="theme" value="{{ site.baseurl }}/assets/styles/style-4.css"
-                data-target='link[rel="stylesheet"]'>
-            <label for="theme-4">Queen Pink</label>
-            <br />
+        <div>
+            <div class="display-inline"></div>
+            <div class="theme-selector display-inline">
+                <p>Themes: </p>
+                <input type="radio" id="theme-default" name="theme" value="{{ site.baseurl }}/assets/styles/style-default.css"
+                    data-target='link[rel="stylesheet"]'>
+                <label for="theme-default">Default</label>
+                <br />
+                <input type="radio" id="theme-1" name="theme" value="{{ site.baseurl }}/assets/styles/style-1.css"
+                    data-target='link[rel="stylesheet"]'>
+                <label for="theme-1">Honeydew</label>
+                <br />
+                <input type="radio" id="theme-2" name="theme" value="{{ site.baseurl }}/assets/styles/style-2.css"
+                    data-target='link[rel="stylesheet"]'>
+                <label for="theme-2">Baby Powder</label>
+                <br />
+                <input type="radio" id="theme-3" name="theme" value="{{ site.baseurl }}/assets/styles/style-3.css"
+                    data-target='link[rel="stylesheet"]'>
+                <label for="theme-3">Medium Turquoise</label>
+                <br />
+                <input type="radio" id="theme-4" name="theme" value="{{ site.baseurl }}/assets/styles/style-4.css"
+                    data-target='link[rel="stylesheet"]'>
+                <label for="theme-4">Queen Pink</label>
+                <br />
+            </div>
+            <div class="display-inline"></div>
         </div>
     </footer>
     <script src="{{ site.baseurl }}{% link assets/js/main.js %}"></script>

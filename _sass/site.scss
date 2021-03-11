@@ -1,9 +1,5 @@
-.uppercase {
+.is-uppercase {
   text-transform: uppercase;
-}
-.hr-nav {
-  box-shadow: 0 0 $size-6 0.1rem;
-  margin-top: 48px;
 }
 .question, .answer {
   text-align: justify;
@@ -65,10 +61,10 @@ details {
 }
 .gallery-images {
   display: block;
-  columns: 12rem;
+  columns: $size-1 * 4;
   gap: $size-6;
 }
-  .gallery-images .figure {
+  .gallery-images.figure {
     margin-bottom: $size-6;
     break-inside: avoid;
   }
@@ -79,7 +75,6 @@ details {
   text-align: center !important;
   font-family: cursive;
   color: black;
-  text-transform: uppercase;
 } 
 .hero-home-image {
   max-height: 80vh;
@@ -94,23 +89,32 @@ details {
   overflow-x: hidden;
   overflow-y: auto;
 }
-  .navbar-boxshadow {
-    box-shadow: 0 0rem $size-6 0.1rem;
-  }
+.navbar-boxshadow {
+  box-shadow: 0 0rem $size-6 0.1rem;
+}
 html,
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 main {
   padding-top: $size-1;
 }
 body > footer {
-    margin-top: auto;
+  margin-top: auto;
 }
 .photo {
   padding: $size-5 $size-5 0 $size-5;
   margin: 0 $size-5 $size-5 $size-5;
   background: $true-white;
+}
+.theme-selector {
+  background-color: $black;
+  color: $white;
+}
+.display-inline {
+  display: inline-block;
+  margin: $size-6 auto $size-6 auto;
+  padding: $size-6;
 }
