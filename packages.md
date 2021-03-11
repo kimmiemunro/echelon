@@ -32,8 +32,8 @@ right-contents:
     alt: Complete staffing
     body: 
     src: https://picsum.photos/300
-  - title: Military / Law Enforcement / Senior discounts
-    alt: Military / Law Enforcement / Senior discounts
+  - title: Military | Law Enforcement | Senior discounts
+    alt: Military | Law Enforcement | Senior discounts
     body: 
     src: https://picsum.photos/300
 ---

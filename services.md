@@ -34,7 +34,7 @@ right-contents:
     src: https://picsum.photos/300
   - title: Sporting events
     alt: Sporting events
-    body: Come and join us as we provide a unique space for all sporting events. With Las Vegas now the place for NHL, NFL, WNBA, and with being the #1 destination for March Madness college basketball, Echelon Event Center is the perfect location to host all sporting events in addition to all major sports draft watch parties.
+    body: Come and join us as we provide a unique space for all sporting events. With Las Vegas now the place for NHL, NFL, WNBA, and with being the &num;1 destination for March Madness college basketball, Echelon Event Center is the perfect location to host all sporting events in addition to all major sports draft watch parties.
     src: https://picsum.photos/300
     
 ---
