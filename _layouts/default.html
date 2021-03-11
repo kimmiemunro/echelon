@@ -65,14 +65,13 @@ layout: compress
         {{ content }}
     </main>
     <footer class="footer has-text-centered">
-        <div>
-            <a href="mailto:{{ site.email }}">Email</a>
-            |
-            <a href="{{ site.social.facebook }}">Facebook</a>
-            |
-            <a href="{{ site.social.instagram }}">Instagram</a>
-            |
-            <a href="{{ site.social.Yelp }}">Yelp</a>
+        <div class="social-links">
+            {% for link in site.social %}
+                <a href="{{ link.src }}">{{ link.title }}</a>
+                {% if forloop.last != true %}
+                |
+                {% endif %}
+            {% endfor %}
         </div>
         <div>
             &copy;2021 Echelon Event Center All rights Reserved

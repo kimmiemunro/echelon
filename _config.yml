@@ -30,10 +30,14 @@ address: 6623 South Las Vegas Boulevard &num;139, Las Vegas, NV 89119
 phone: 17028176851
 phone-text: "1 (702) 817-6851"
 social:
-  name: Echelon Event Center
-  facebook: https://www.facebook.com/Echelon-Event-Center-100726935279063
-  instagram: https://www.instagram.com/echeloneventcenter/
-  yelp: 
+  - title: Email
+    src: mailto:echeloneventctr@outlook.com
+  - title: Facebook
+    src: https://www.facebook.com/Echelon-Event-Center-100726935279063
+  - title: Instagram
+    src: https://www.instagram.com/echeloneventcenter/
+  # - title: Yelp
+  #   src: https://yelp.com/
 
 sass:
     sass_dir: _sass
