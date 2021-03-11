@@ -2,21 +2,15 @@
   text-transform: uppercase;
 }
 .hr-nav {
-  box-shadow: 0 0rem $size-6 0.1rem;
+  box-shadow: 0 0 $size-6 0.1rem;
   margin-top: 48px;
 }
-.hr-footer {
-  box-shadow: 0 0rem -$size-6 -0.1rem;
-}
-
 .question, .answer {
   text-align: justify;
 }
-
   .gallery-image > input[type=checkbox] {
     display: none;
   }
-
   figure.gallery-image, 
   figure.gallery-image>* {
     cursor: zoom-in;
@@ -24,6 +18,11 @@
   figure.gallery-image:has(input[type=checkbox]:checked), 
   figure.gallery-image:has(input[type=checkbox]:checked) > * {
     cursor: zoom-out;
+  }
+
+  .gallery-images figcaption {
+    padding: $size-1;
+    font-size: $size-1;
   }
 
   .gallery-image > input[type=checkbox]:checked ~ label {
@@ -49,25 +48,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: $white-fade;
-    padding-top: 2rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-top: $size-3;
+    padding-right: $size-3;
+    padding-left: $size-3;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
-
-
   .gallery-image > input[type=checkbox]:checked ~ label > div > img {
     max-width: 95vw;
     max-height: 95vh;
   }
-
 details {
   cursor: pointer;
 }
-
 .gallery-images {
   display: block;
   columns: 12rem;
@@ -99,12 +94,9 @@ details {
   overflow-x: hidden;
   overflow-y: auto;
 }
-
-
   .navbar-boxshadow {
     box-shadow: 0 0rem $size-6 0.1rem;
   }
-
 html,
 body {
     min-height: 100vh;
@@ -117,7 +109,6 @@ main {
 body > footer {
     margin-top: auto;
 }
-
 .photo {
   padding: $size-5 $size-5 0 $size-5;
   margin: 0 $size-5 $size-5 $size-5;
