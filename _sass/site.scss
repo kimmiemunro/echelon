@@ -20,7 +20,7 @@
     cursor: zoom-out;
   }
 
-  .gallery-images > input[type=checkbox]:checked figcaption {
+  .gallery-images > input[type=checkbox]:checked ~ label > figcaption {
     padding: $size-1;
     font-size: $size-1;
   }
