@@ -61,21 +61,30 @@ details {
 }
 .gallery-images {
   display: block;
-  columns: $size-1 * 4;
-  gap: $size-6;
+  columns: $size-5 * 10;
+  gap: $size-5;
 }
-  .gallery-images.figure {
-    margin-bottom: $size-6;
-    break-inside: avoid;
-  }
 .figure {
   padding: $size-5;
-  margin: 0 $size-5 $size-5 $size-5;
+  margin: $size-5;
   background: $true-white;
   text-align: center !important;
   font-family: cursive;
   color: black;
 } 
+.figure:first-child {
+  margin: 0 $size-5 $size-5 $size-5;
+}
+.figure:last-child {
+  margin: $size-5 $size-5 0 $size-5;
+}
+  .gallery-images.figure {
+    margin-bottom: $size-5;
+  }
+.figure-image-caption {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
 .hero-home-image {
   max-height: 80vh;
   max-width: 80vw;
@@ -109,6 +118,7 @@ body > footer {
   margin: 0 $size-5 $size-5 $size-5;
   background: $true-white;
 }
+/*theme sections*/
 .theme-selector {
   background-color: $black;
   color: $white;
@@ -118,3 +128,15 @@ body > footer {
   margin: $size-6 auto $size-6 auto;
   padding: $size-6;
 }
+.is-theme-title {
+  font-weight: bolder;
+}
+.is-theme-option:hover {
+  background-color: $black-ter;
+  font-weight: bold;
+}
+.is-theme-option:has(input) {
+  background-color: $black-ter;
+  font-weight: bold;
+}
+/*theme sections*/

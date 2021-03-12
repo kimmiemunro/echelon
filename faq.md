@@ -23,7 +23,7 @@ contents:
 
 ---
 <br/>
-<section class="container">
+<section class="container content">
     {% for content in page.contents %}
         <br/>
             <details>

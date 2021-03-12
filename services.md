@@ -38,7 +38,7 @@ right-contents:
     src: https://picsum.photos/300
 ---
 <div>
-    <div class="container">
+    <div class="container content">
       <br/>
       <h1 class="is-size-3 has-text-centered">{{page.title}}</h1>
       <h2 class="is-size-5 has-text-centered">{{page.subtitle}}</h2>
@@ -53,7 +53,7 @@ right-contents:
                           <figure class="image is-square">
                               <img src="{{content.src}}" alt="{{content.alt}}"/>
                           </figure>
-                          <p class="subtitle has-text-centered">{{content.title}}</p>
+                          <p class="subtitle has-text-centered content">{{content.title}}</p>
                       </div>
                         <p>{{content.body}}</p>
                     </article>
@@ -68,7 +68,7 @@ right-contents:
                           <figure class="image is-square">
                               <img src="{{content.src}}" alt="{{content.alt}}"/>
                           </figure>
-                          <p class="subtitle has-text-centered">{{content.title}}</p>
+                          <p class="subtitle has-text-centered content">{{content.title}}</p>
                         </div>
                         <p>{{content.body}}</p>
                     </article>

@@ -11,10 +11,10 @@ layout: default
   <section class="gallery-images">
     {% for image in site.static_files %}
       {% if image.path contains "assets/images/home" %}
-        <figure class="figure gallery-image is-uppercase">
+        <figure class="figure gallery-image">
           <input type="checkbox" id="zoom-{{ image.basename }}">
           <label for="zoom-{{ image.basename }}">
-            <div>
+            <div class="figure-image-caption">
               <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}"/>
               <figcaption>{{ image.basename }}</figcaption>
             </div>
@@ -24,7 +24,7 @@ layout: default
     {% endfor %}
   </section>
   <hr>
-  <section class="container">
+  <section class="container content">
     <h2 class="is-size-4 has-text-centered" >Echelon Event Center is located in beautiful Town Square, just south of the World-Famous Las Vegas Strip.</h2>
     <br/>
       <h3>We are a space of luxury, romance, ambiance and world-class service combined to make your event extraordinary. An intimate location for your special celebration including weddings, receptions, bah-mitzvahs, quinceañera, birthday celebrations, corporate events, baby showers and celebrations of all kinds.</h3>
