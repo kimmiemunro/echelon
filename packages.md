@@ -56,7 +56,9 @@ list-items:
   - "Full Cake Service"
   - "Full Table Decoration, Welcome Table, Sweetheart Table, Center Pieces"
   - "Bride and Groom Champagne"
-  - "Gourmet Menu Selections<ul><li>Plated Dinners</li><li>Butler Passed Hors D'oeuvre</li></ul>"
+  - "Gourmet Menu Selections"
+  - "Plated Dinners"
+  - "Butler Passed Hors D'oeuvre"
 ---
 
 <div>
