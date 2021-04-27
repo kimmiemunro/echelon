@@ -73,7 +73,7 @@ list-items:
       </ul>
       <p>Inclusive Packages Customized to Client’s Special Requests</p>
   </div>
-  <div class="tile is-ancestor">
+  <!-- <div class="tile is-ancestor">
     <div class="tile is-parent is-vertical">
       {% for content in page.left-contents %}
         <div class="tile is-parent">
@@ -104,5 +104,5 @@ list-items:
         </div>
       {% endfor %}
     </div>
-  </div>
+  </div> -->
 </div>
