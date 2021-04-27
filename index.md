@@ -13,7 +13,7 @@ layout: default
       {% if image.path contains "assets/images/home" %}
         <figure class="figure gallery-image">
           <input type="checkbox" id="zoom-{{ image.basename }}">
-          <!-- <label for="zoom-{{ image.basename }}"> -->
+          <label for="zoom-{{ image.basename }}">
             <div class="figure-image-caption">
               <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}"/>
               <!-- <figcaption>{{ image.basename }}</figcaption> -->
