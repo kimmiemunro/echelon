@@ -55,33 +55,6 @@ layout: compress
         <div>
             &copy;2021 Echelon Event Center All rights Reserved
         </div>
-        <!-- <div>
-            <div class="display-inline"></div>
-            <div class="theme-selector display-inline">
-                <p class="is-theme-title">Themes: </p>
-                <p class="is-theme-option">
-                    <input class="theme-radio-option" type="radio" id="theme-default" name="theme" value="{{ site.baseurl }}/assets/styles/style-default.css" data-target='link[rel="stylesheet"]'>
-                    <label for="theme-default">Default</label>
-                </p>
-                <p class="is-theme-option">
-                    <input class="theme-radio-option" type="radio" id="theme-1" name="theme" value="{{ site.baseurl }}/assets/styles/style-1.css" data-target='link[rel="stylesheet"]'>
-                    <label for="theme-1">Honeydew</label>
-                </p>
-                <p class="is-theme-option">
-                    <input class="theme-radio-option" type="radio" id="theme-2" name="theme" value="{{ site.baseurl }}/assets/styles/style-2.css" data-target='link[rel="stylesheet"]'>
-                    <label for="theme-2">Baby Powder</label>
-                </p>
-                <p class="is-theme-option">
-                    <input class="theme-radio-option" type="radio" id="theme-3" name="theme" value="{{ site.baseurl }}/assets/styles/style-3.css" data-target='link[rel="stylesheet"]'>
-                    <label for="theme-3">Medium Turquoise</label>
-                </p>
-                <p class="is-theme-option">
-                    <input class="theme-radio-option" type="radio" id="theme-4" name="theme" value="{{ site.baseurl }}/assets/styles/style-4.css" data-target='link[rel="stylesheet"]'>
-                    <label for="theme-4">Queen Pink</label>
-                </p>
-            </div>
-            <div class="display-inline"></div>
-        </div> -->
     </footer>
     <script src="{{ site.baseurl }}{% link assets/js/main.js %}"></script>
 </body>
