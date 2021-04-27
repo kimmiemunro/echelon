@@ -60,17 +60,15 @@ list-items:
 ---
 
 <div>
-  <div class="container content">
+  <div class="container content  has-text-centered">
       <br/>
-      <h1 class="is-size-3 has-text-centered">{{page.title}}</h1>
-      <h2 class="is-size-5 has-text-centered">{{page.subtitle}}</h2>
+      <h1 class="is-size-3">{{page.title}}</h1>
+      <h2 class="is-size-5">{{page.subtitle}}</h2>
       <p>VENUE Packages Prices</p>
       <p>Starting at $1,500 to $8500</p>
-      <ul>
-        {% for item in page.list-items %}
-          <li>{{item}}</li>
-        {% endfor %}
-      </ul>
+      {% for item in page.list-items %}
+      <p>{{item}}</p>
+      {% endfor %}
       <p>Inclusive Packages Customized to Client’s Special Requests</p>
   </div>
   <!-- <div class="tile is-ancestor">
