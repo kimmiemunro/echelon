@@ -49,10 +49,10 @@ right-contents:
             {% for content in page.left-contents %}
                 <div class="tile is-parent">
                     <article class="tile is-child">
-                      <div class="photo">
-                          <figure class="image is-square">
+                      <div>
+                          <!-- <figure class="image is-square">
                               <img src="{{content.src}}" alt="{{content.alt}}"/>
-                          </figure>
+                          </figure> -->
                           <p class="subtitle has-text-centered content">{{content.title}}</p>
                       </div>
                         <p>{{content.body}}</p>
@@ -64,10 +64,10 @@ right-contents:
             {% for content in page.right-contents %}
                 <div class="tile is-parent">
                     <article class="tile is-child">
-                        <div class="photo">
-                          <figure class="image is-square">
+                        <div>
+                          <!-- <figure class="image is-square">
                               <img src="{{content.src}}" alt="{{content.alt}}"/>
-                          </figure>
+                          </figure> -->
                           <p class="subtitle has-text-centered content">{{content.title}}</p>
                         </div>
                         <p>{{content.body}}</p>
