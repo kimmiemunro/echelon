@@ -23,8 +23,8 @@ email: echeloneventctr@outlook.com
 tagline: Echelon Event Center provides an unforgettable experience with amazing services.
 description: >- # this means to ignore newlines until "baseurl:"
   Echelon Event Center provides an unforgettable experience with amazing services at an affordable price. We believe that inexpensive prices doesn’t mean you have to sacrifice quality. We have a well decorated and elegant event space that’s comparable to luxury venues.
-baseurl: "/echelon" # the subpath of your site, e.g. /blog
-url: "https://arciose.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://echeloneventcenter.com/" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/logo.png
 address: 6623 South Las Vegas Boulevard &num;139, Las Vegas, NV 89119
 phone: 17028176851
