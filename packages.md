@@ -67,7 +67,7 @@ list-items:
       <h1 class="is-size-3">{{page.title}}</h1>
       <h2 class="is-size-5">{{page.subtitle}}</h2>
       <p>VENUE Packages Prices</p>
-      <p>Starting at $1,500 to $8500</p>
+      <p>Starting at $1,500 to $8,500</p>
       {% for item in page.list-items %}
       <p>{{item}}</p>
       {% endfor %}
