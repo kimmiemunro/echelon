@@ -47,14 +47,15 @@
     padding-top: $size-3;
     padding-right: $size-3;
     padding-left: $size-3;
+    padding-bottom: $size-3;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
   .gallery-image > input[type=checkbox]:checked ~ label > div > img {
-    max-width: 95vw;
-    max-height: 95vh;
+    max-width: 80vw;
+    max-height: 80vh;
   }
 details {
   cursor: pointer;
