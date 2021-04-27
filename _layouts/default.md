@@ -16,7 +16,7 @@ layout: compress
     <link rel="mask-icon" href="{{ site.baseurl }}{% link assets/icon/safari-pinned-tab.svg %}" color="#333333">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/styles/style-default.scss %}">
+    <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/styles/style-3.scss %}">
 </head>
 <body>
     <nav class="navbar is-fixed-top navbar-boxshadow" role="navigation" aria-label="main navigation">
@@ -55,7 +55,7 @@ layout: compress
         <div>
             &copy;2021 Echelon Event Center All rights Reserved
         </div>
-        <div>
+        <!-- <div>
             <div class="display-inline"></div>
             <div class="theme-selector display-inline">
                 <p class="is-theme-title">Themes: </p>
@@ -81,7 +81,7 @@ layout: compress
                 </p>
             </div>
             <div class="display-inline"></div>
-        </div>
+        </div> -->
     </footer>
     <script src="{{ site.baseurl }}{% link assets/js/main.js %}"></script>
 </body>

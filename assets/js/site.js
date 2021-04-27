@@ -11,22 +11,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  const radioInput = Array.prototype.slice.call(document.querySelectorAll('input[type="radio"]'), 0);
-    if (radioInput.length > 0) { 
-      radioInput.forEach( el => { 
-        el.addEventListener('click', () => { 
-          const target = document.querySelector(el.dataset.target);
-          target.setAttribute("href", el.value);
-          setCookie("theme", el.value, 90);
-      });
-    });
-  }
-  (function () {
-    let value = getCookie("theme");
-    if (value !== "") {
-      document.querySelector('link[rel="stylesheet"]').setAttribute("href", value);
-      const radioInput = document.querySelector(`input[type="radio"][value="${value}"]`);
-      radioInput.checked = true;
-    }
-  })();
+//   const radioInput = Array.prototype.slice.call(document.querySelectorAll('input[type="radio"]'), 0);
+//     if (radioInput.length > 0) { 
+//       radioInput.forEach( el => { 
+//         el.addEventListener('click', () => { 
+//           const target = document.querySelector(el.dataset.target);
+//           target.setAttribute("href", el.value);
+//           setCookie("theme", el.value, 90);
+//       });
+//     });
+//   }
+//   (function () {
+//     let value = getCookie("theme");
+//     if (value !== "") {
+//       document.querySelector('link[rel="stylesheet"]').setAttribute("href", value);
+//       const radioInput = document.querySelector(`input[type="radio"][value="${value}"]`);
+//       radioInput.checked = true;
+//     }
+//   })();
 });
