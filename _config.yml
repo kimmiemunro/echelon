@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://echeloneventcenter.com/" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/logo.png
-address: 6623 South Las Vegas Boulevard &num;139, Las Vegas, NV 89119
+address: 3495 E. Flamingo Road Las Vegas, NV 89121
 phone: 17028176851
 phone-text: "1 (702) 817-6851"
 social:

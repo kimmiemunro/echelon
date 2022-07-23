@@ -37,7 +37,7 @@ right-contents:
     body: 
     src: https://picsum.photos/300
 list-items:
-  - "Luxurious ballroom can accommodate from 25-270 guests"
+  - "Luxurious ballroom can accommodate from 25-300 guests"
   - "Catering: in-house or use licensed caterer of your choice"
   - "Tables & Chairs"
   - "Linens"
@@ -68,6 +68,7 @@ list-items:
       <h2 class="is-size-5">{{page.subtitle}}</h2>
       <p>VENUE Packages Prices</p>
       <p>Starting at $1,500 to $8,500</p>
+      <p>Full Staff to include Bartender, Servers, Security & Cleaning during event.</p>
       {% for item in page.list-items %}
       <p>{{item}}</p>
       {% endfor %}
