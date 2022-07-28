@@ -16,7 +16,7 @@ layout: compress
     <link rel="mask-icon" href="{% link assets/icon/safari-pinned-tab.svg %}" color="#333333">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="{% link assets/styles/style-3.scss %}">
+    <link rel="stylesheet" href="{% link assets/styles/style-default.scss %}">
 </head>
 <body>
     <nav class="navbar is-fixed-top navbar-boxshadow" role="navigation" aria-label="main navigation">
