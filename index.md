@@ -5,7 +5,7 @@ layout: default
   <section class="hero is-fullheight-with-navbar is-white logo">
     <div class="hero-body">
       <!-- <div class="hero-home-image parallax" alt="Echelon Logo" style="background-image: url('{{ site.baseurl }}{% link assets/images/logo-normal.png %}');" ></div> -->
-      <img class="hero-home-image" src="{% link assets/images/logo-text.png %}" alt="Echelon Logo"/>
+      <img class="hero-home-image" src="{% link assets/images/logo-full.png %}" alt="Echelon Logo"/>
     </div>
   </section>
   <section class="gallery-images">

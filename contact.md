@@ -8,6 +8,46 @@ layout: default
         <h1 class="is-size-1" >Hi 👋 want to get in touch?</h1>
         <h2 class="is-size-4" >We'd love to hear from you. Here's how you can reach us...</h2>
     </section>
+    <section class="container has-text-centered">
+        <h1>Your solution experts.</h1>
+        <summary>Contact Us.</summary>
+        <div class="columns">
+            <div class="column is-one-quarters"></div>
+            <div class="column is-half">
+                <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+                    <input type="hidden" name="accessKey" value="7d6ae1a5-843a-4225-88d7-4bc35943f9e9">
+                    <input type="hidden" name="subject" value="contact form">
+                    <input type="hidden" name="redirectTo" value="{{ site.url }}/contact/success">
+                    <div class="field">
+                        <label class="label">Name</label>
+                        <div class="control">
+                            <input class="input" type="text" name="name" placeholder="Enter Your Name" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                            <input class="input" type="email" name="email" placeholder="Enter Your Email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Date</label>
+                        <div class="control">
+                            <input class="input" type="date" name="date" placeholder="Enter the date of you event." required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Message</label>
+                        <div class="control">
+                            <textarea class="textarea" name="message" placeholder="Enter Your Message" required></textarea>
+                        </div>
+                    </div>
+                    <button class="button is-primary" type="Submit">Submit</button>
+                </form>
+                </div>
+            <div class="column is-one-quarters"></div>
+        </div>
+    </section>
     <section>
         <br/>
         <br/>
