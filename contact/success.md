@@ -7,8 +7,12 @@ layout: default
         <br/>
         <br/>
     <section class="container has-text-centered">
-        <h1>Thank you for contacting {{site.fullname}},</h1>
-        <h2>one of our staff members will contact you within forty eight hours.</h2>
+        <h1 class="title text-has-uppercase"></h1>
+            Thank you for contacting {{site.fullname}},
+        </h1>
+        <h4 class="subtitle">
+            one of our staff members will contact you within forty eight hours.
+        </h4>
     </section>
     <section>
         <br/>
