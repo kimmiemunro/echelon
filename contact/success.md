@@ -4,13 +4,11 @@ layout: default
 ---
 
 <div class="has-text-centered" >
-    <section>
-        <h1 class="is-size-1" >Hi 👋 want to get in touch?</h1>
-        <h2 class="is-size-4" >We'd love to hear from you. Here's how you can reach us...</h2>
-    </section>
+        <br/>
+        <br/>
     <section class="container has-text-centered">
         <h1>Thank you for contacting {{site.fullname}},</h1>
-        <h2 class="is-size-4" >one of our staff members will contact you within forty eight hours.</h2>
+        <h2>one of our staff members will contact you within forty eight hours.</h2>
     </section>
     <section>
         <br/>
