@@ -9,8 +9,7 @@ layout: default
         <h2 class="is-size-4" >We'd love to hear from you. Here's how you can reach us...</h2>
     </section>
     <section class="container has-text-centered">
-        <h1>Your solution experts.</h1>
-        <summary>Contact Us.</summary>
+        <h1>Contact Us</h1>
         <div class="columns">
             <div class="column is-one-quarters"></div>
             <div class="column is-half">
