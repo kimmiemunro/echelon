@@ -14,6 +14,7 @@ layout: default
             <div class="column is-one-quarters"></div>
             <div class="column is-half">
                 <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+                    <input type="text" name="honeypot" style="display: none;">
                     <input type="hidden" name="accessKey" value="7d6ae1a5-843a-4225-88d7-4bc35943f9e9">
                     <input type="hidden" name="subject" value="contact form">
                     <input type="hidden" name="redirectTo" value="{{ site.url }}/contact/success">
